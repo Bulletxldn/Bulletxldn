@@ -1,0 +1,185 @@
+{
+  "site": {
+    "name": "Bullet Marketing",
+    "tagline": "We make brands go viral",
+    "phone": "+44 20 1234 5678",
+    "email": "hello@bulletmarketing.com",
+    "address": "London, UK"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "content": "Viral Foundry delivered a 340% ROAS on our creator campaign. Their data-driven approach and creator selection was spot on.",
+      "author": "Sarah Chen",
+      "role": "Marketing Director",
+      "company": "TechFlow",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=100&h=100&fit=crop&crop=face"
+    },
+    {
+      "id": 2,
+      "content": "Finally, an agency that understands ROI. We saw immediate results and our CAC dropped 45% within the first month.",
+      "author": "Marcus Johnson",
+      "role": "Growth Lead",
+      "company": "NutriCore",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?w=100&h=100&fit=crop&crop=face"
+    },
+    {
+      "id": 3,
+      "content": "The team's creator matching is unreal. Every influencer they selected was a perfect fit for our brand and audience.",
+      "author": "Emily Rodriguez",
+      "role": "Brand Manager",
+      "company": "StyleLab",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?w=100&h=100&fit=crop&crop=face"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": 1,
+      "title": "TechFlow: 340% ROAS in 30 Days",
+      "category": "SaaS",
+      "platform": "LinkedIn",
+      "image": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?w=600&h=400&fit=crop",
+      "metric": "+340% ROAS",
+      "description": "B2B SaaS company achieved massive growth through strategic creator partnerships.",
+      "challenge": "TechFlow struggled to reach decision-makers in enterprise companies despite having a solid product.",
+      "approach": "We identified micro-influencers in the B2B space and created authentic case study content.",
+      "results": "340% ROAS, 15,000 new qualified leads, $2.4M in attributed revenue",
+      "testimonial": "Viral Foundry transformed our approach to B2B marketing. The results speak for themselves."
+    },
+    {
+      "id": 2,
+      "title": "NutriCore: -45% Customer Acquisition Cost",
+      "category": "Health",
+      "platform": "Instagram",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?w=600&h=400&fit=crop",
+      "metric": "-45% CAC",
+      "description": "Health supplement brand reduced acquisition costs while scaling revenue.",
+      "challenge": "High competition in the health space meant expensive ads and poor ROAS.",
+      "approach": "Partnered with health and fitness micro-influencers to create authentic product integrations.",
+      "results": "45% lower CAC, 280% increase in organic reach, $1.8M new revenue",
+      "testimonial": "The team found creators our audience actually trusts. Game changer for our brand."
+    },
+    {
+      "id": 3,
+      "title": "StyleLab: 2.1M Views, 25% Conversion Rate",
+      "category": "Fashion",
+      "platform": "TikTok",
+      "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?w=600&h=400&fit=crop",
+      "metric": "2.1M Views",
+      "description": "Fashion brand achieved viral success with authentic creator content.",
+      "challenge": "Breaking through the noise in the saturated fashion vertical on TikTok.",
+      "approach": "Created trend-driven content with fashion micro-influencers aligned to brand aesthetic.",
+      "results": "2.1M views, 25% conversion rate, 300% follower growth",
+      "testimonial": "They understand both creativity and commerce. Perfect combination for our brand."
+    }
+  ],
+  "services": [
+    {
+      "name": "Starter",
+      "price": "£2,500/month",
+      "description": "Perfect for testing creator marketing",
+      "features": [
+        "5 creator partnerships per month",
+        "Content strategy & briefing",
+        "Performance tracking & reporting",
+        "Monthly strategy call",
+        "Email support"
+      ],
+      "outcomes": [
+        "Brand awareness boost",
+        "Initial creator network",
+        "Performance baseline"
+      ]
+    },
+    {
+      "name": "Growth",
+      "price": "£7,500/month",
+      "description": "Scale successful campaigns",
+      "features": [
+        "15 creator partnerships per month",
+        "Multi-platform campaigns",
+        "A/B testing & optimization",
+        "Bi-weekly strategy calls",
+        "Dedicated account manager",
+        "Custom reporting dashboard"
+      ],
+      "outcomes": [
+        "Measurable ROI growth",
+        "Brand authority building",
+        "Audience expansion"
+      ],
+      "popular": true
+    },
+    {
+      "name": "Scale",
+      "price": "£15,000/month",
+      "description": "Full-scale creator marketing machine",
+      "features": [
+        "Unlimited creator partnerships",
+        "Full-funnel campaigns",
+        "Advanced analytics & attribution",
+        "Weekly strategy sessions",
+        "Priority support",
+        "Custom integrations",
+        "Quarterly business reviews"
+      ],
+      "outcomes": [
+        "Predictable revenue growth",
+        "Market leadership",
+        "Sustainable creator ecosystem"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do you select creators for our campaigns?",
+      "answer": "We use our proprietary AI toolstack to analyze audience overlap, engagement quality, and brand fit. Every creator is vetted for authenticity and alignment with your target market."
+    },
+    {
+      "question": "What's your typical campaign timeline?",
+      "answer": "We launch initial creator partnerships within 14 days. Full campaigns typically run for 30-90 days depending on objectives and scale."
+    },
+    {
+      "question": "Do you guarantee results?",
+      "answer": "While we can't guarantee virality, we do guarantee transparent reporting and data-driven optimization. Most clients see positive ROI within the first 30 days."
+    },
+    {
+      "question": "How do you handle FTC compliance?",
+      "answer": "All partnerships are properly disclosed according to platform guidelines and FTC requirements. We provide compliance training to all creators in our network."
+    },
+    {
+      "question": "Can you work with our existing creators?",
+      "answer": "Absolutely. We can audit and optimize your current creator relationships while expanding your network with new strategic partnerships."
+    },
+    {
+      "question": "What industries do you work with?",
+      "answer": "We work across most industries including B2B SaaS, e-commerce, health & wellness, fintech, and consumer brands. Each campaign is tailored to industry-specific best practices."
+    }
+  ],
+  "team": [
+    {
+      "name": "Alex Thompson",
+      "role": "Co-Founder & Strategy Director",
+      "credibility": "Former VP Marketing at TechCorp, 10+ years scaling brands",
+      "points": [
+        "Led $50M+ in creator campaign spend",
+        "Built partnerships with 1000+ creators",
+        "Scaled 3 companies from startup to IPO",
+        "Featured speaker at marketing conferences"
+      ],
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "name": "Jordan Kim",
+      "role": "Co-Founder & Creative Director",
+      "credibility": "Award-winning creative strategist, ex-Ogilvy",
+      "points": [
+        "Created viral campaigns for Fortune 500 brands",
+        "Deep expertise in platform-specific content",
+        "Built creative frameworks used industry-wide",
+        "Mentor at top accelerator programs"
+      ],
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?w=300&h=300&fit=crop&crop=face"
+    }
+  ]
+}

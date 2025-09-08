@@ -65,7 +65,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-transparent">
       {/* Hero Section */}
-      <section className="relative bg-white/90 backdrop-blur-sm pt-24 pb-20 overflow-hidden">
+      <section className="relative bg-white/90 backdrop-blur-sm h-screen flex items-center justify-center overflow-hidden">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{

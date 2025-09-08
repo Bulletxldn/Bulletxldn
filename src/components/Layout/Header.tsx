@@ -40,9 +40,13 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link 
             to="/" 
-            className="text-xl lg:text-2xl font-bold text-dark-900 hover:text-primary-600 transition-colors"
+            className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <span className="highlight-blue">Bullet</span> Marketing
+            <img 
+              src="/images/bullet-logo.png" 
+              alt="Bullet Marketing" 
+              className="h-40 lg:h-50 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

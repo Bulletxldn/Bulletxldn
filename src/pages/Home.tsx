@@ -75,16 +75,20 @@ const Home: React.FC = () => {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <AnimatedSection animation="slideUp">
+            <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8}>
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-dark-900 mb-6 font-hero">
                 We make brands <span className="highlight-blue">go viral</span>.
               </h1>
-              
+            </AnimatedSection>
+            
+            <AnimatedSection animation="slideInLeft" delay={0.4} duration={0.8}>
               <p className="text-xl lg:text-2xl text-secondary-600 leading-relaxed max-w-4xl mx-auto mb-12">
                 Influencer campaigns designed to grow your <span className="highlight-underline">reach</span> and <span className="highlight-blue">revenue</span>.
               </p>
+            </AnimatedSection>
 
-              {/* Primary CTA */}
+            {/* Primary CTA */}
+            <AnimatedSection animation="slideInLeft" delay={0.6} duration={0.8}>
               <div className="mb-16">
                 <Button 
                   size="lg" 
@@ -94,8 +98,10 @@ const Home: React.FC = () => {
                   Book a Strategy Call
                 </Button>
               </div>
+            </AnimatedSection>
 
-              {/* Proof Stats */}
+            {/* Proof Stats */}
+            <AnimatedSection animation="slideInLeft" delay={0.8} duration={0.8}>
               <div className="flex flex-wrap justify-center gap-12 mb-16">
                 {proofStats.map((stat, index) => (
                   <div key={index} className="text-center">
@@ -128,7 +134,7 @@ const Home: React.FC = () => {
       {/* How It Works */}
       <section className="py-20 bg-white/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection animation="slideUp" className="text-center mb-16">
+          <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8} className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-dark-900 mb-6">
               How it <span className="highlight-blue">works</span>
             </h2>
@@ -141,8 +147,9 @@ const Home: React.FC = () => {
             {steps.map((step, index) => (
               <AnimatedSection 
                 key={index} 
-                animation="slideUp" 
-                delay={index * 0.2}
+                animation="slideInLeft" 
+                delay={0.4 + (index * 0.2)}
+                duration={0.8}
                 className="text-center"
               >
                 <div className="bg-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -161,7 +168,7 @@ const Home: React.FC = () => {
       {/* Case Studies / Proof */}
       <section className="py-20 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection animation="slideUp" className="text-center mb-16">
+          <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8} className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-dark-900 mb-6">
               Proven <span className="highlight-blue">results</span>
             </h2>
@@ -170,7 +177,7 @@ const Home: React.FC = () => {
             </p>
           </AnimatedSection>
 
-          <AnimatedSection animation="slideUp" delay={0.3}>
+          <AnimatedSection animation="slideInLeft" delay={0.4} duration={0.8}>
             <div className="max-w-2xl mx-auto">
               <CaseStudyCard
                 {...featuredCaseStudy}
@@ -193,7 +200,7 @@ const Home: React.FC = () => {
       {/* Services Preview */}
       <section className="py-20 bg-white/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection animation="slideUp" className="text-center mb-16">
+          <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8} className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-dark-900 mb-6">
               Choose your <span className="highlight-blue">package</span>
             </h2>
@@ -206,8 +213,9 @@ const Home: React.FC = () => {
             {contentData.services.map((service, index) => (
               <AnimatedSection 
                 key={index} 
-                animation="slideUp" 
-                delay={index * 0.2}
+                animation="slideInLeft" 
+                delay={0.4 + (index * 0.2)}
+                duration={0.8}
                 className="bg-white rounded-xl shadow-lg p-8 card-hover border border-secondary-200"
               >
                 <h3 className="text-2xl font-bold text-dark-900 mb-2">{service.name}</h3>
@@ -239,7 +247,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <AnimatedSection animation="slideInLeft">
+            <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8}>
               <h2 className="text-4xl lg:text-5xl font-bold text-dark-900 mb-8">
                 Why <span className="highlight-blue">Bullet Marketing</span>
               </h2>
@@ -258,7 +266,7 @@ const Home: React.FC = () => {
               </div>
             </AnimatedSection>
 
-            <AnimatedSection animation="slideInRight">
+            <AnimatedSection animation="slideInLeft" delay={0.4} duration={0.8}>
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-secondary-200">
                 <h3 className="text-2xl font-bold text-dark-900 mb-6">Campaign Dashboard</h3>
                 <div className="space-y-6">
@@ -289,7 +297,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
-            <AnimatedSection animation="slideInLeft">
+            <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8}>
               <div className="bg-secondary-100 rounded-2xl p-8">
                 <h3 className="text-3xl font-bold text-dark-900 mb-4">For Businesses</h3>
                 <p className="text-secondary-600 mb-6">
@@ -304,7 +312,7 @@ const Home: React.FC = () => {
               </div>
             </AnimatedSection>
 
-            <AnimatedSection animation="slideInRight">
+            <AnimatedSection animation="slideInLeft" delay={0.4} duration={0.8}>
               <div className="bg-secondary-100 rounded-2xl p-8">
                 <h3 className="text-3xl font-bold text-dark-900 mb-4">For Creators</h3>
                 <p className="text-secondary-600 mb-6">
@@ -328,7 +336,7 @@ const Home: React.FC = () => {
       {/* Final CTA Banner */}
       <section className="py-20 bg-navy-gradient text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <AnimatedSection animation="slideUp">
+          <AnimatedSection animation="slideInLeft" delay={0.2} duration={0.8}>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 font-hero">
               Ready to go viral?
             </h2>

@@ -57,8 +57,8 @@ const Header: React.FC = () => {
                 to={item.href}
                 className={`text-sm font-medium transition-colors hover:text-accent-600 ${
                   location.pathname === item.href 
-                    ? 'text-primary-600 font-bold' 
-                    : 'text-secondary-700 hover:text-primary-600'
+                    ? 'text-white font-bold' 
+                    : 'text-white hover:text-accent-400'
                 }`}
               >
                 {item.name}
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-lg text-secondary-700 hover:text-primary-600 hover:bg-secondary-100 transition-colors"
+            className="lg:hidden p-2 rounded-lg text-white hover:text-accent-400 hover:bg-white/10 transition-colors"
           >
             {isMenuOpen ? (
               <X className="w-6 h-6" />

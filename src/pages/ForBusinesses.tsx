@@ -89,13 +89,22 @@ const ForBusinesses: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-dark-900 to-accent-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section 
+        className="py-20 text-white relative"
+        style={{
+          backgroundImage: 'url(/images/business-growth-background.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="slideUp" className="text-center">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 font-hero">
               For Businesses
             </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Tell us about your goals and we'll create a custom creator strategy that drives real revenue growth.
             </p>
           </AnimatedSection>
